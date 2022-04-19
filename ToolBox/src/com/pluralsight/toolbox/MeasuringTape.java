@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class MeasuringTape {
 
-    private Random random;
+    private final Random random;
 
     private MeasuringTape() {
         random = new Random();
